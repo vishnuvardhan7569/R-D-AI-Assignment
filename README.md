@@ -70,14 +70,8 @@ y(t) = 42 + t·sin(0.523599) + exp(0.030000·|t|)·sin(0.3t)·cos(0.523599)
 ---
 
 ## 🖼️ Visuals
+<img width="1389" height="995" alt="image" src="https://github.com/user-attachments/assets/40a0ebd8-431c-4f31-92ec-86f6f3960e3a" />
 
-Add these to `results/` (placeholders shown):
-- `results/original_data.png` – Original data
-- `results/predicted_curve.png` – Predicted curve only
-- `results/overlay.png` – Data vs Predicted overlay
-- `results/residuals_vs_t.png` – Residual magnitude vs t
-- `results/final_plot_light.png` – 2×2 light theme
-- `results/final_plot_dark.png` – 2×2 dark theme
 
 ---
 
@@ -103,13 +97,6 @@ python src/curve_fit.py
 │   └── xy_data.csv
 ├── src/
 │   └── R&D / AI Assignment.py
-├── results/
-│   ├── original_data.png
-│   ├── predicted_curve.png
-│   ├── overlay.png
-│   ├── residuals_vs_t.png
-│   ├── final_plot_light.png
-│   └── final_plot_dark.png
 └── README.md
 ```
 
