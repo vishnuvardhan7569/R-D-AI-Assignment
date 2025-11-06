@@ -1,4 +1,4 @@
-# Parametric Curve Fitting – R&D / AI Assignment (R-Standard)
+# Parametric Curve Fitting – R&D / AI Assignment
 
 This repository estimates the unknown parameters **θ**, **M**, and **X** for a given parametric curve using a dataset of (x, y) points. The fitted curve closely matches the provided data across the range **t ∈ (6, 60)**.
 
@@ -41,13 +41,7 @@ x(t) = t·cos(0.523599) - exp(0.030000·|t|)·sin(0.3t)·sin(0.523599) + 55.0000
 y(t) = 42 + t·sin(0.523599) + exp(0.030000·|t|)·sin(0.3t)·cos(0.523599)
 ```
 
-**Desmos form (paste into the assignment link):**
-```
-(t*cos(0.523599)-exp(0.030000*abs(t))*sin(0.3*t)*sin(0.523599)+55.000000,
- 42+t*sin(0.523599)+exp(0.030000*abs(t))*sin(0.3*t)*cos(0.523599))
-```
 
----
 
 ## 🧠 Approach (Brief)
 
@@ -108,7 +102,7 @@ python src/curve_fit.py
 ├── data/
 │   └── xy_data.csv
 ├── src/
-│   └── curve_fit.py
+│   └── R&D / AI Assignment.py
 ├── results/
 │   ├── original_data.png
 │   ├── predicted_curve.png
